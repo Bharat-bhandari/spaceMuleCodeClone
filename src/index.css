@@ -63,3 +63,25 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 } */
+
+.headLine {
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin: 4rem auto 4rem auto;
+  font-size: 1.3rem;
+}
+
+main {
+  background: linear-gradient(to left, #140f31, #301534);
+
+  margin: 1rem;
+  border-radius: 3rem 3rem 0 0;
+
+  overflow: auto;
+  max-height: calc(100vh - 10.5rem);
+}
+
+main::-webkit-scrollbar {
+  display: none;
+}
