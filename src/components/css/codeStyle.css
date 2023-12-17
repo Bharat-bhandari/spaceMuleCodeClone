@@ -84,3 +84,20 @@
   background-color: rgb(255, 255, 255, 0.15);
   cursor: pointer;
 }
+
+.possible div {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+
+  overflow: auto;
+  width: 80vw;
+}
+
+.possible div::-webkit-scrollbar {
+  display: none;
+}
+
+.possible img {
+  border-radius: 1rem;
+}

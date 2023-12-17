@@ -1,0 +1,77 @@
+.columns {
+  display: flex;
+  gap: 2rem;
+}
+
+.styleColumns {
+  width: 26vw;
+}
+
+.styleColumns hr {
+  border: 1px solid;
+  border-color: #0b0e31;
+  margin: 0;
+}
+
+.title {
+  background-color: var(--clr-gray-2);
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.6rem;
+  border-radius: 1rem 1rem 0 0;
+}
+
+.title h3 {
+  color: var(--clr-white-1);
+  letter-spacing: -0.5px;
+  margin: 0;
+}
+
+.styleList {
+  background-color: var(--clr-gray-1);
+  height: 32rem;
+  overflow-y: auto; /* Change to overflow-y for vertical scroll only */
+  cursor: pointer;
+}
+
+.eachList:hover {
+  background-color: #222431;
+}
+
+.styleList::-webkit-scrollbar {
+  width: 10px;
+}
+
+.styleList::-webkit-scrollbar-thumb {
+  background-color: #5e6069;
+  border-radius: 5px;
+}
+
+.styleList::-webkit-scrollbar-track {
+  background-color: var(--clr-gray-1);
+}
+
+.eachList {
+  display: flex;
+  align-items: center;
+  padding: 0.7rem;
+}
+
+.eachListTitle {
+  color: var(--clr-white-1);
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.eachList p {
+  color: #646770;
+  font-size: 0.9rem;
+  letter-spacing: -0.05px;
+}
+
+.styleIcons {
+  padding: 0.5rem 2rem;
+  font-size: 30px;
+  color: var(--clr-blue-1);
+}

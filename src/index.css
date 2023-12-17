@@ -7,6 +7,8 @@
 
   --clr-blue-1: #7faadd;
   --clr-white-1: #fdfdfd;
+  --clr-gray-1: #191b2b;
+  --clr-gray-2: #252734;
 }
 
 html {
@@ -85,11 +87,17 @@ main {
 
   margin: 1rem;
   border-radius: 3rem 3rem 0 0;
+  /* padding: 0 10rem; */
 
   overflow: auto;
   max-height: calc(100vh - 10.5rem);
 }
 
 main::-webkit-scrollbar {
-  display: none;
+  width: 10px;
+}
+
+main::-webkit-scrollbar-thumb {
+  background-color: #5e6069;
+  border-radius: 5px;
 }

@@ -11,15 +11,20 @@ import thebar from "../assets/images/thebar.webp";
 import min from "../assets/images/minlandsby_logo.png";
 import et from "../assets/images/etiya_logo.jpg";
 import bear from "../assets/images/bearpeak_logo.jpeg";
+import reply from "../assets/CodeStyle/reply_card_dark.png";
+import crane from "../assets/CodeStyle/crane_card_dark.png";
+import fort from "../assets/CodeStyle/fortnightly_card_dark.png";
+import shrine from "../assets/CodeStyle/shrine_card_dark.png";
 
-import { IoMdMail } from "react-icons/io";
-import { MdOutlinePhoneIphone } from "react-icons/md";
+import AppDesignStyle from "./AppDesignStyle";
 
 const CodeStyle = () => {
   return (
     <>
       <h1>App Design Styles</h1>
-      <div></div>
+      <div>
+        <AppDesignStyle />
+      </div>
       <h1>Custom Software That Solves Your Business Challenges</h1>
       <div className="aboutMule">
         <div>
@@ -76,74 +81,20 @@ const CodeStyle = () => {
 
       <div className="possible">
         <h1>What is Possible?</h1>
-      </div>
-      <div className="contact">
-        <div className="contactUs">
-          <h1>Let's Get Started</h1>
-          <p>
-            Click below to contact us to get started now, or to learn more about
-            our services
-          </p>
-          <div>
-            <IoMdMail className="contactIcons" />
-            <MdOutlinePhoneIphone className="contactIcons" />
-          </div>
-        </div>
-
         <div>
-          <h1>Taking technology solutions to a new level</h1>
-          <p>
-            Our developers build accessible, performant, and secure solutions.
-            We only use time-tested engineering patterns to reduce development
-            time and save our customers time and money.
-          </p>
-          <p>
-            SpaceMuleCode is a fast-growing software company that keeps culture
-            and creativity at the heart of everything we do. Our mission is to
-            help our customers unlock their creativity and build exceptional
-            apps using our uniquely powerful team to achieve their business
-            goals.
-          </p>
+          <a href="/">
+            <img src={reply} alt="" />
+          </a>
 
-          <h3>Contact us</h3>
-
-          <div className="social">
-            <div>
-              <ul>
-                <li>
-                  <p>Our service</p>
-                </li>
-                <li>
-                  <h3>About us</h3>
-                </li>
-                <li>
-                  <h3>Our Work</h3>
-                </li>
-                <li>
-                  <h3>Pricing</h3>
-                </li>
-                <li>
-                  <h3>Contact Us</h3>
-                </li>
-              </ul>
-            </div>
-            <div>
-              <ul>
-                <p>Company</p>
-                <h3>Terms of Service</h3>
-                <h3>Privacy Policy</h3>
-              </ul>
-            </div>
-            <div>
-              <ul>
-                <p>Follow Us</p>
-                <h3>Instagram</h3>
-                <h3>Twitter</h3>
-                <h3>Linkedin</h3>
-                <h3>Github</h3>
-              </ul>
-            </div>
-          </div>
+          <a href="/">
+            <img src={crane} alt="" />
+          </a>
+          <a href="/">
+            <img src={fort} alt="" />
+          </a>
+          <a href="/">
+            <img src={shrine} alt="" />
+          </a>
         </div>
       </div>
     </>
