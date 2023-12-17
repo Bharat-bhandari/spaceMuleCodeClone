@@ -6,10 +6,18 @@ const Nav = () => {
   return (
     <nav>
       <ul className="navElements">
-        <a href="#gallery">Gallery</a>
-        <a href="#code">Gallery</a>
-        <a href="#contact">Gallery</a>
-        <a href="#about">Gallery</a>
+        <li>
+          <a href="#">Gallery</a>
+        </li>
+        <li>
+          <a href="#code">Code Style</a>
+        </li>
+        <li>
+          <a href="#contact">Contact us</a>
+        </li>
+        <li>
+          <a href="#about">About us</a>
+        </li>
       </ul>
     </nav>
   );

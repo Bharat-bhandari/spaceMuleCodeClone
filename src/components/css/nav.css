@@ -2,23 +2,21 @@
   display: flex;
   gap: 1rem;
   justify-content: end;
-
   margin: 1rem 8rem auto auto;
-
   font-weight: bold;
-
   text-decoration: none;
   list-style: none;
 }
 
-.navElements li {
-  color: #2460c1;
-}
-
-.navElements li:hover {
-  background-color: rgb(255, 255, 255, 0.15);
-
+.navElements a {
+  color: var(--clr-blue-1);
+  text-decoration: none;
   padding: 2px;
   border-radius: 4px;
+  border: 2px solid transparent;
+}
+
+.navElements a:hover {
+  background-color: rgb(255, 255, 255, 0.15);
   cursor: pointer;
 }

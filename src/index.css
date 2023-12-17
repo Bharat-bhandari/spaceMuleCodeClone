@@ -4,6 +4,13 @@
   font-family: "Roboto", sans-serif;
   background-color: #030303;
   color: #4a4a4a;
+
+  --clr-blue-1: #7faadd;
+  --clr-white-1: #fdfdfd;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 a:hover {
@@ -15,15 +22,16 @@ p {
   padding: 0;
 }
 
-p a {
-  color: #0468d7;
-  text-decoration: none;
+p {
+  color: var(--clr-white-1);
+  letter-spacing: 1.2px;
+  margin-bottom: 20px;
 }
 
-/* h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-} */
+h1 {
+  color: var(--clr-blue-1);
+  font-size: 2.5rem;
+}
 
 /* button {
   background-color: #0468d7;
@@ -65,7 +73,7 @@ button:focus-visible {
 } */
 
 .headLine {
-  color: white;
+  color: var(--clr-white-1);
   display: flex;
   justify-content: center;
   margin: 4rem auto 4rem auto;
