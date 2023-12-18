@@ -2,7 +2,6 @@ import React from "react";
 
 import Nav from "./Nav";
 
-import "./css/hero.css";
 import CodeStyle from "./CodeStyle";
 import About from "./About";
 
@@ -11,7 +10,7 @@ const Hero = () => {
     <>
       <Nav />
 
-      <div className="content">
+      <div className="mainContent">
         <section id="code">
           <CodeStyle />
         </section>

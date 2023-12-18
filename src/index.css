@@ -35,45 +35,6 @@ h1 {
   font-size: 2.5rem;
 }
 
-/* button {
-  background-color: #0468d7;
-  color: #fff;
-  align-items: center;
-  justify-content: center;
-  border: 0 solid;
-  border-radius: 24px;
-  cursor: pointer;
-  display: inline-flex;
-  font-size: 14px;
-  font-weight: 700;
-  height: 40px;
-  padding: 0 32px;
-  text-align: center;
-  line-height: 1.15;
-} */
-
-/* button:hover {
-  border-color: #646cff;
-}
-
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-} */
-/* 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
-} */
-
 .headLine {
   color: var(--clr-white-1);
   display: flex;
@@ -100,4 +61,8 @@ main::-webkit-scrollbar {
 main::-webkit-scrollbar-thumb {
   background-color: #5e6069;
   border-radius: 5px;
+}
+
+.mainContent {
+  padding: 3rem 8% 1rem 8%;
 }
