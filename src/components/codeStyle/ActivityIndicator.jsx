@@ -7,7 +7,7 @@ const ActivityIndicator = () => {
     <div className="demo">
       <DemoNav />
       <div className="mainDemoContent">
-        <div>
+        <div className="mainText">
           <h1>App bar</h1>
           <p>
             The app bar provides content and actions related to the current
@@ -20,7 +20,7 @@ const ActivityIndicator = () => {
             <h5>Activity Indicator</h5>
           </div>
           <div className="home">
-            <span class="spinner"></span>
+            <span className="spinner"></span>
           </div>
         </div>
       </div>

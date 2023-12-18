@@ -1,10 +1,15 @@
 .columns {
   display: flex;
   gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.columns section {
+  min-width: 20rem;
 }
 
 .styleColumns {
-  width: 26vw;
+  width: 25vw;
 }
 
 .styleColumns hr {
@@ -75,4 +80,20 @@
   padding: 0.5rem 2rem;
   font-size: 30px;
   color: var(--clr-blue-1);
+}
+
+@media (max-width: 800px) {
+  .columns {
+    justify-content: center;
+  }
+  .styleList {
+    background-color: var(--clr-gray-1);
+    max-height: 0;
+    overflow: auto;
+    transition: max-height 0.3s ease-out;
+  }
+
+  .styleList.active {
+    max-height: 32rem;
+  }
 }

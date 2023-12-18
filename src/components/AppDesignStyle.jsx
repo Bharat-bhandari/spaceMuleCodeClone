@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./css/appDesignStyle.css";
 import { Link } from "react-router-dom";
 
@@ -11,16 +11,25 @@ import { FiLoader } from "react-icons/fi";
 import { MdTypeSpecimen } from "react-icons/md";
 
 const AppDesignStyle = () => {
+  const [open1, setOpen1] = useState(false);
+  const [open2, setOpen2] = useState(false);
+  const [open3, setOpen3] = useState(false);
+
   return (
     <div className="columns">
       <section className="styleColumns">
-        <div className="title">
+        <div
+          className="title"
+          onClick={() => {
+            setOpen1(!open1);
+          }}
+        >
           <img src={material} alt="material" />
           <h3>MATERIAL</h3>
         </div>
         <hr />
 
-        <div className="styleList">
+        <div className={`styleList ${open1 ? "active" : "inactive"}`}>
           <Link to={"app-bar"} className="eachList">
             <TbLayoutNavbarFilled className="styleIcons" />
             <div>
@@ -114,13 +123,18 @@ const AppDesignStyle = () => {
         </div>
       </section>
       <section className="styleColumns">
-        <div className="title">
+        <div
+          className="title"
+          onClick={() => {
+            setOpen2(!open2);
+          }}
+        >
           <img src={cuper} alt="material" />
           <h3>CUPERTINO</h3>
         </div>
         <hr />
 
-        <div className="styleList">
+        <div className={`styleList ${open2 ? "active" : "inactive"}`}>
           <Link to={"/activity-indicator"} className="eachList">
             <FiLoader className="styleIcons" />
             <div>
@@ -188,13 +202,18 @@ const AppDesignStyle = () => {
         </div>
       </section>
       <section className="styleColumns">
-        <div className="title">
+        <div
+          className="title"
+          onClick={() => {
+            setOpen3(!open3);
+          }}
+        >
           <img src={reference} alt="material" />
           <h3>STYLES AND OTHER</h3>
         </div>
         <hr />
 
-        <div className="styleList">
+        <div className={`styleList ${open3 ? "active" : "inactive"}`}>
           <Link to={"typography"} className="eachList">
             <MdTypeSpecimen className="styleIcons" />
             <div>

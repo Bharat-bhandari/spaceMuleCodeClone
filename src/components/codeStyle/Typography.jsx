@@ -7,7 +7,7 @@ const Typography = () => {
     <div className="demo">
       <DemoNav />
       <div className="mainDemoContent">
-        <div>
+        <div className="mainText">
           <h1>Typography</h1>
           <p>
             Definations for the various typographical styles found in Material

@@ -12,7 +12,7 @@ const AppBar = () => {
     <div className="demo">
       <DemoNav />
       <div className="mainDemoContent">
-        <div>
+        <div className="mainText">
           <h1>App bar</h1>
           <p>
             The app bar provides content and actions related to the current

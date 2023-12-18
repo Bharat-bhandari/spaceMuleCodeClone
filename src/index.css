@@ -28,6 +28,7 @@ p {
   color: var(--clr-white-1);
   letter-spacing: 1.2px;
   margin-bottom: 20px;
+  font-size: 1rem;
 }
 
 h1 {
@@ -48,9 +49,9 @@ main {
 
   margin: 1rem;
   border-radius: 3rem 3rem 0 0;
-  /* padding: 0 10rem; */
 
-  overflow: auto;
+  overflow-y: auto;
+  overflow-x: hidden;
   max-height: calc(100vh - 10.5rem);
 }
 
@@ -65,4 +66,26 @@ main::-webkit-scrollbar-thumb {
 
 .mainContent {
   padding: 3rem 8% 1rem 8%;
+}
+
+@media (max-width: 800px) {
+  .headLine {
+    display: none; /* Hide the navigation on small screens */
+  }
+
+  main {
+    max-height: calc(100vh - 2rem);
+    border-radius: 0;
+    background: #030d31;
+  }
+  main::-webkit-scrollbar {
+    width: 0;
+  }
+
+  .mainContent {
+    padding: 1.5rem 6% 1.5rem 6%;
+  }
+  h1 {
+    font-size: 1.6rem;
+  }
 }

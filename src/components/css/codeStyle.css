@@ -101,3 +101,22 @@
 .possible img {
   border-radius: 1rem;
 }
+
+@media (max-width: 800px) {
+  .appHeading {
+    font-size: 1.6rem;
+    margin-top: 0;
+  }
+  .aboutMule img {
+    display: none;
+  }
+
+  .aboutMule {
+    margin: 6rem auto;
+  }
+
+  .social {
+    flex-wrap: wrap;
+    gap: 0;
+  }
+}

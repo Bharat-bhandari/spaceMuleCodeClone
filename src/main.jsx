@@ -6,7 +6,6 @@ import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import AppBar from "./components/codeStyle/AppBar.jsx";
 import Hero from "./components/Hero.jsx";
-import Test from "./components/codeStyle/Test.jsx";
 import ActivityIndicator from "./components/codeStyle/ActivityIndicator.jsx";
 import Typography from "./components/codeStyle/Typography.jsx";
 

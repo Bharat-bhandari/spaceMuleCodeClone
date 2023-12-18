@@ -21,7 +21,7 @@ import AppDesignStyle from "./AppDesignStyle";
 const CodeStyle = () => {
   return (
     <>
-      <h1>App Design Styles</h1>
+      <h1 className="appHeading">App Design Styles</h1>
       <div>
         <AppDesignStyle />
       </div>
