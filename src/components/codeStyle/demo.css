@@ -133,7 +133,8 @@
 } */
 
 .typoMain {
-  height: 35.5rem;
+  /* height: 35.5rem; */
+  height: 58vh;
   overflow: auto;
 }
 
@@ -255,6 +256,6 @@ p.overline {
   }
 
   .typoMain {
-    height: 43rem;
+    height: 74vh;
   }
 }
